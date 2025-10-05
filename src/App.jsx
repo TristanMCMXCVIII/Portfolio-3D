@@ -3,6 +3,7 @@ import ShowcaseSection from "./sections/ShowcaseSection.jsx";
 import NavBar from "./components/NavBar.jsx";
 import LogoShowcase from "./sections/LogoShowcase.jsx";
 import FeatureCards from "./sections/FeatureCards.jsx";
+import ExperienceSection from "./sections/ExperienceSection.jsx";
 
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
             <ShowcaseSection />
             <LogoShowcase />
             <FeatureCards />
+            <ExperienceSection />
         </>
     )
 }
